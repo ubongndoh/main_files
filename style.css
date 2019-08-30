@@ -1,152 +1,100 @@
-
-
-/*GIFTAPAD LOGO*/
-
-#giftapadlogo img{
-    height: 20%;
-    width: 10%;
-    margin-top: -10px 0 0 0px;
-    
-}
-
-/*VOLUNTEER PICS*/
-#first-col img{
-    height: 50%;
-    width: 70%;
-
-}
-
-/**/
-
 body{
-    font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding:0;
-    margin:0;
-    background-color:white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
-/* Global */
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+*{
+  box-sizing: border-box;
 }
-
-
-.button_1{
-    height: 38px;
-    background:#e8491d;
-    border:0;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-}
-
-ul{
-    margin:-20px;
-    padding:-10px;
-}
-/* Header */
 
 header{
-    background:white;
-    padding-top: 10px;
-    /*min-height: 30px;*/
-   /* border-bottom:#e8491d 3px solid;*/
+ position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 10px;
+  height: 80px;
+  margin-top: -10px;
+ background-color: #FFFFFF;
 }
 
-
-
-header a{
-    color:black;
-    text-decoration: none;
-    font-size:16px;
+ul {
+  list-style-type: none;
+  margin-top: -80px;
+  padding: 0;
+  overflow: hidden;
 }
 
-header li{
-   /* float:left;*/
-    display:inline;
-    padding: 0px 40px 0 20px;
+li {
+  float: right;
 }
 
-header #giftapadlogo{
-    float:left;
+li a {
+  display: block;
+  color: #676767;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-
-header nav{
-    float:right;
-    margin-top:-40px;
-
-}
-header .highlight, header .current a{
-    color:#FF1493;
-    font-weight:bold;
+a:hover{
+  color: 	#FF1493;
+  font-weight: bold;
 }
 
-header a:hover{
-    color:blue;
-    font-weight:bold;
+#logo{
+  margin: 20px 0 20px 60px;
 }
 
-
-/*SHOWCASE*/
-
-#showcase{
-min-height:400px;
-background:url(https://res.cloudinary.com/ibrahimygana/image/upload/v1567165519/START%20NG/sapegt5kvfpyvgrbzlsq.jpg);
-text-align:center;
-color:#ffffff;
-background-position:center;
-background-size:cover;
-opacity: 0.7;
+#banner{
+  margin-top: 10px;
+  height: 400vh;
 }
 
-
-
-
-#showcase h1{
-    margin-top:100px;
-    font-size: 55px;
-    margin-bottom:10px;
+#img-container{
+  margin-top: 80px;
 }
 
-#showcase p{
-    font-size:20px;
+#image{
+  height: auto;
+  width: 100%;
+  display: block;
 }
 
-/* Boxes */
-#boxes{
-    margin-top:20px;
+#banner-text{
+      position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 20%; 
+        text-align: center;
+        width: 70vw;
+        color: 	#FFFFFF;
 }
 
-#boxes .box{
-    float:left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-
+h1{
+  font-size: 62px;
+   margin-bottom: -10px 
 }
 
-
-
-div#first-col{
-    float:left;
-    width:60%;
+#banner-text p {
+  font-size: 24px;
+  letter-spacing: 1.0px;
+  line-height: 40px;
 }
 
-div#second-col{
-    float:right;
-    width:40%;
-    margin-top:10px;
+button{
+  background-color: #4674ea;
+  width: 150px;
+  height: 50px;
+  border-radius: 126px;
+  border: 1px solid #4674ea;
 }
 
-
-
-footer{
-    padding:20px;
-    margin-top:20px;
-    color:#ffffff;
-    background-color:#FF1493;
-    text-align:center;
+a{
+  text-decoration: none;
+  color: 	#FFFFFF;
+   font-size: 20px;
 }
+
