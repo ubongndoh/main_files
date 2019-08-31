@@ -119,6 +119,7 @@ figcaption{
 }
 #team-list:hover{
     transform: scale(1.2);
+    color: rgb(14, 130, 231);
 }
 h1{
     text-align: center;
