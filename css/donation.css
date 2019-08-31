@@ -1,0 +1,278 @@
+body{
+    font-family: nunito, sans-serif;
+    font-size: 100%;
+    height: auto;
+    margin: 0;
+    color: #333;
+}
+nav #nav img{  /*giftapad logo*/
+    width: 3em;
+    height: 3em;
+    margin-left: 3%;
+}
+nav #nav .menu{
+    float: right;
+    margin: 0 3% 0 0;
+    display: none; /*so it won't display on small screens like mobile phone screen*/
+}
+nav #nav .menu ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+nav #nav .menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 0.7em;
+    padding: 2em 1.5em 1em 0.5em;
+}
+nav #nav .menu ul li a:hover{
+    text-decoration: underline;
+    color: rgb(42, 51, 143);
+    font-weight: bold;
+}
+/*the mobiles view*/
+nav #nav .dropbtn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+nav #nav .dropdown{
+    position: relative;
+    float: right;
+    margin: 0.5em 7% 0 0;
+}
+nav #nav .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    right: 3%;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+}
+nav #nav .dropdown-content a{
+    color: #333;
+    font-size: 0.7em;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    display: block;
+}
+nav #nav .dropdown-content a:hover{
+    text-decoration: underline;
+    color: rgb(42, 51, 143);
+    font-weight: bold;
+}
+nav #nav .dropdown:hover .dropdown-content{
+    display: block;
+}
+nav #nav .dropdown:hover .dropbtn{
+    border: 1.5px solid rgb(192, 209, 241);;
+}
+header #top h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.8em;
+    padding: 5em 0 0 1em;
+}
+header #top{
+    background: pink; /*an image will be inserted here*/
+    margin-top: -2em;
+    height: 15em;
+    width: 100%;
+}
+#donate{
+    background: -moz-linear-gradient(top, rgb(20, 23, 53) 0%, rgb(69, 79, 192) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, colorstop(0%,rgb(20, 23, 53)), color-stop(100%,rgb(69, 79, 192)));
+    background: -webkit-linear-gradient(top, rgb(20, 23, 53) 0%,rgb(69, 79, 192) 100%);
+    background: -o-linear-gradient(top, rgb(20, 23, 53) 0%,rgb(69, 79, 192) 100%);
+    background: -ms-linear-gradient(top, rgb(20, 23, 53) 0%,rgb(69, 79, 192) 100%);
+    background: linear-gradient(to bottom, rgb(20, 23, 53) 0%, rgb(69, 79, 192) 100%);
+    width: 80%;
+    margin: -3em 10% 0 10%;
+    position: relative;
+    z-index: 100;
+}
+#donate h2{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 1em 0 1em 0.5em;
+    font-size: 1em;
+}
+#donate button{
+    float: right;
+    margin: 1.3em 1em;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.4em 0 0.4em 0;
+    width: 37%;
+    background: white;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+#donate button:hover{
+    cursor: pointer;
+    background: rgb(252, 231, 234);
+}
+section{
+    margin-top: -3em;
+    position: absolute;
+    z-index: 1;
+}
+section #story{
+    text-align: center;
+    background: rgb(236, 235, 235);
+    margin-top: -0.52em;
+    padding-bottom: 1em;
+}
+section #story h3{
+    font-size: 1.2em;
+    padding-top: 2em;
+}
+section #story h3 span{
+    color: rgb(224, 44, 44);
+}
+section #story p{
+    font-size: 0.8em;
+    margin-top: -1em;
+    padding-bottom: 1em;
+    width: 80%;
+    margin-left: 10%;
+}
+section button{
+    background: rgb(42, 51, 143);
+    border: none;
+    width: 50%;
+    margin: 2em 25%;
+    border-radius: 1em;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 1em;
+    color: #fff;
+}
+section button:hover{
+    cursor: pointer;
+    background: rgb(69, 79, 192);
+}
+section #picture{
+    background: pink; /*an image will be inserted as its background*/
+    height: 13em;
+}
+section #story2{
+    background: rgb(236, 235, 235);
+    text-align: left;
+    margin-top: 1.5em;
+}
+section #story2 p{
+    width: 80%;
+    margin-left: 5%;
+    padding: 1em;
+    font-size: 0.8em;
+}
+section #story2 h4{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 0 0 1em 1em;
+    margin-left: 5%;
+}
+/* view for screens above 480px ie tabs*/
+@media screen and (min-width: 30em){
+    body{
+        font-size: 120%;
+    }
+    nav #nav img{
+        max-width: 100%;
+    }
+    #donate button{
+        width: 25%; 
+        margin: 1.3em;
+    }
+    section #story p{
+        width: 60%;
+        margin-left: 20%;
+    }
+    section button{
+        width: 40%;
+        margin-left: 30%;
+    }
+    section #picture{
+        width: 80%;
+        margin-left: 10%;
+    }
+    section #story2{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+/*view for screens above 760px e.g ipad*/
+@media screen and (min-width: 45em){
+    body{
+        font-size: 140%;
+    }
+    nav #nav .dropdown{
+        display: none;
+    }
+    nav #nav .menu{
+        display: inline-block;
+    }
+    #donate{
+        max-width: 45em;
+        margin: -3em auto 0;
+    }
+    #donate button{
+        font-size: 0.7em;
+        padding: 0.7em;
+        border-radius: 15px;
+        width: 30%;
+        margin: 1em;
+    }
+    section #picture{
+        float: right;
+        width: 60%;
+        margin-right: 5%;
+    }
+    section #story2{
+        clear: both;
+        margin-top: 15em;
+        width: 50%;
+    }
+}
+/*for screens above 1024px ie laptop*/
+@media screen and (min-width: 64em){
+    body{
+        font-size: 150%;
+    }
+    #donate button{
+        width: 25%;
+        margin: 1em 1.5em;
+    }
+    section #story p{
+        width: 50%;
+        margin-left: 25%;
+        padding-bottom: 2.3em;
+    }
+    section button{
+        width: 40%;
+        margin: 2em 30%;
+        height: 3em;
+        font-size: 1.5em;
+        padding: 0.7em;
+    }
+    section #picture{
+        height: 19em;
+    }
+    section #story2{
+        margin-top: 21em;
+        width: 40%;
+    }
+    section #story2 p{
+        width: 60%;
+        margin-left: 10%;
+    }
+    section #story2 h4{
+        margin-left: 10%;
+    }
+    #content{
+        max-width: 64em;
+        margin: 0 auto;
+      }
+}
