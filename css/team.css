@@ -22,7 +22,7 @@ header{
     position: fixed;
   z-index: 1;
   width: 100%;
-  top: 33px;
+  top: 0;
   height: 80px;
   margin-top: -10px;
  background-color: #FFFFFF;
@@ -35,13 +35,13 @@ ul{
 }
 /* Header */
 
-header{
+/*header{
     background:white;
-    margin-top:-30px;
+    margin-top:0;
     position:fixed;
     /*min-height: 30px;*/
    /* border-bottom:#e8491d 3px solid;*/
-}
+/*}*/
 
 
 
@@ -87,7 +87,11 @@ p#heading {
     font-size:20px;
     margin-top:100px;
 }
-
+main{
+    padding-bottom: 5%;
+    
+    min-height: 14000px;
+}
 
 /*Team image styling*/
 #team-list img{
@@ -100,7 +104,7 @@ p#heading {
 /*picture on mobile*/
 #team-list{
     float: left;
-    width:50%;
+    width:100%;
     text-align: center;
 }
 /* display for tablets*/
@@ -108,28 +112,40 @@ p#heading {
 @media (min-width:400px){
     #team-list{
         float: left;
-        width:25%;
+        width:50%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 10500px;
+}
 }
 
 @media (min-width:720px){
     #team-list{
         float: left;
-        width:15%;
+        width:25%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 5000px;
+}
 }
 /*big screen display*/
 @media (min-width:1000px){
     #team-list{
         float: left;
-        width:10%;
+        width:20%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 3000px;
 }
-#team{
-    padding-bottom: 10%;
 }
 figcaption{
     font-weight: bold;
@@ -143,4 +159,19 @@ h1{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+
+
+footer{
+        margin-top: 6rem;
+        display: flex;
+        background-color: #FF1493;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+}
+
+footer a{
+    text-decoration: none;
 }

@@ -364,3 +364,18 @@ textarea {
     display: block;
     color: #000 !important;
 }
+
+.contact-form-design-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+#contact-form{
+    width: 250%;
+}
+input{
+    height: 100px;
+}
+.footer-area{
+    padding-top: 2%;
+}
