@@ -3,3 +3,6 @@
 #Username on Slack - @Francis-Xavier
 
 #I created the contact page, edited the about and index page, changed main.css to style.css and created a separate stylesheet called contact.css for contact page located in the css folder.
+
+#slack username: Taofeeq-deru
+#I added the donation page and also added the stylesheet for the donation page css folder. Also added font-awesome-4.7.0 which I used in creating the donation page
