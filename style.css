@@ -219,10 +219,7 @@ a{
 
 #sponsor-logo img {
   display: block;
- /*  width: 50%; */
-  height: 100px;
-  width:200px;
- padding: 1em;
+  padding: 1em;
 }
 
 footer {
