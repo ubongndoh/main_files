@@ -94,7 +94,7 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background: url(https://res.cloudinary.com/xavier/image/upload/v1567192864/contact-us-banner_lppyxi.jpg);
+    background: url(https://res.cloudinary.com/joshuafolorunsho/image/upload/v1567447164/optimized%20pages/contact-us-banner_lppyxi-min.jpg);
     text-align: center;
     color: #ffffff;
     background-position: center;
@@ -363,4 +363,19 @@ textarea {
 .social-links ul li a {
     display: block;
     color: #000 !important;
+}
+
+.contact-form-design-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+#contact-form{
+    width: 250%;
+}
+input{
+    height: 100px;
+}
+.footer-area{
+    padding-top: 2%;
 }
