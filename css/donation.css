@@ -69,16 +69,35 @@ nav #nav .dropdown:hover .dropbtn{
 }
 header #top h1{
     text-transform: capitalize;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.8em;
     padding: 5em 0 0 1em;
 }
 header #top{
-    background: pink; /*an image will be inserted here*/
+    background-image: url("https://res.cloudinary.com/oluwabamise/image/upload/v1567554700/adult-african-beautiful-2293506_1.jpg");  /*an image will be inserted here*/
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    overflow: hidden;
     margin-top: -2em;
     height: 15em;
     width: 100%;
+    /*  background: */
+    background-blend-mode: saturation;
+    /* position: relative; */
 }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(140.04deg, rgba(0, 17, 60, 0.9) 1.09%, rgba(0, 17, 60, 0.79) 46.1%, 
+    rgba(154, 0, 111, 0.5) 70.27%, rgba(154, 0, 111, 0.7) 99.1%);  
+    opacity: .5;
+    position: absolute;
+}
+
+
+
 #donate{
     background: -moz-linear-gradient(top, rgb(20, 23, 53) 0%, rgb(69, 79, 192) 100%);
     background: -webkit-gradient(linear, left top, left bottom, colorstop(0%,rgb(20, 23, 53)), color-stop(100%,rgb(69, 79, 192)));
@@ -154,7 +173,6 @@ section button:hover{
     background: rgb(69, 79, 192);
 }
 section #picture{
-    background: pink; /*an image will be inserted as its background*/
     height: 13em;
 }
 section #story2{
@@ -241,6 +259,15 @@ section #story2 h4{
     body{
         font-size: 150%;
     }
+    
+
+    /* .overlay{
+       width: 100%;
+       height: 100%;
+       background: #000;
+       opacity: .7;  
+    } */
+    
     #donate button{
         width: 25%;
         margin: 1em 1.5em;
@@ -259,6 +286,10 @@ section #story2 h4{
     }
     section #picture{
         height: 19em;
+        background-image: url(https://res.cloudinary.com/oluwabamise/image/upload/v1567553533/1Screenshot_20190122-110132.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
     section #story2{
         margin-top: 21em;
@@ -275,4 +306,9 @@ section #story2 h4{
         max-width: 64em;
         margin: 0 auto;
       }
+    
+    .volunteers{
+        text-align: center;
+    }
+    
 }
