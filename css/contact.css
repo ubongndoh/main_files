@@ -85,7 +85,7 @@ header .current a {
 }
 
 header a:hover {
-    color: blue;
+    color: #FF1493;
     font-weight: bold;
 }
 
@@ -181,7 +181,7 @@ header a:hover {
     font-size: 16px;
     line-height: 1.42857143;
     color: #000;
-    background-color: #676767;
+    background-color: #ffffff;
     background-image: none;
     border-radius: 0px;
     box-shadow: none;
@@ -205,7 +205,7 @@ header a:hover {
     text-transform: capitalize;
     font-size: 14px;
     border: 1px solid #337ab7;
-    background-color: #4674EA;
+    background-color: #FF1493;
     font-weight: 600;
     width: 200px;
     margin-bottom: 0;
@@ -266,7 +266,7 @@ textarea {
     height: 80px;
     width: 80px;
     text-align: center;
-    background: #4674EA !important;
+    background: #FF1493 !important;
     border-radius: 50%;
     line-height: 80px;
 }
@@ -327,7 +327,7 @@ textarea {
 */
 
 .footer-area {
-    background: #4674EA;
+    background: #FF1493;
 }
 
 .footer-text p {
@@ -365,17 +365,20 @@ textarea {
     color: #000 !important;
 }
 
-.contact-form-design-area{
+.contact-form-design-area {
     display: flex;
     justify-content: space-between;
     padding: 2%;
 }
-#contact-form{
+
+#contact-form {
     width: 250%;
 }
-input{
+
+input {
     height: 100px;
 }
-.footer-area{
+
+.footer-area {
     padding-top: 2%;
 }
