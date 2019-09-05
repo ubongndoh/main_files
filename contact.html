@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Giftapad main aim is to promote a healthy menstrual hygiene by distributing sanitary products and creating awareness. Help impact a life.">
+    <meta name="keywords" content="pad,  healthy, menstrual, healthy menstural hygiene, sanitary products">
     <title>Giftapad | Contact Us</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/contact.css">
-    
     <!--adding tab icon image-->
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/ezeko/image/upload/v1567192680/favicon_2_zwujoa.png">
     <!--FONT AWESOME-->
@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-
 <body>
     <header>
         <!--GIFTAPAD LOGO -->
@@ -29,22 +28,20 @@
             <!--NAV BAR-->
             <nav>
                 <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://forms.gle/97kHEfjkLAZzqHWE9">Membership</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li class="current"><a href="#">Contact</a></li>
+                    <li><a href="index.html" class="nav-links" target="_blank">Home</a></li>
+                    <li><a href="about.html" class="nav-links" target="_blank">About</a></li>
+                    <li><a href="https://forms.gle/97kHEfjkLAZzqHWE9" class="nav-links" target="_blank">Membership</a></li>
+                    <li><a href="team.html" class="nav-links" target="_blank">Team</a></li>
+                    <li><a href="project.html" class="nav-links" target="_blank">Projects</a></li>
+                    <li><a href="contact.html" class="nav-links">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <!--SHOWCASE-->
-
     <section id="showcase">
-        <div class="container">
-        </div>
+        <div class="container"></div>
     </section>
-
     <!-- START CONTACT DESIGN AREA -->
     <section id="contact" class="contact-ara" data-stellar-background-ratio="0.6">
         <div class="container">
@@ -61,20 +58,20 @@
                     <div class="contact-form">
                         <form id="contact-form" role="form">
                             <!-- IF MAIL SENT SUCCESSFULLY -->
-                            <h6 class="text-success">Your message has been sent successfully. </h6>
+                            <h6 class="text-success">Your message has been sent successfully</h6>
                             <!-- IF MAIL SENDING UNSUCCESSFULL -->
-                            <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+                            <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character</h6>
                             <div class="col-md-12 col-sm-12">
-                                <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Your Name">
+                                <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Your Name" minlength="4" required onkeypress="return isNumberKey(event)">
                             </div>
                             <div class="">
                                 <input type="email" class="form-control" id="cf-email" name="email" placeholder="Your Email">
                             </div>
                             <div class="">
-                                <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Your Subject">
+                                <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Your Subject" minlength="4" required onkeypress="return isNumberKey(event)">
                             </div>
                             <div class="">
-                                <textarea class="form-control" rows="6" id="cf-message" name="cf-message" placeholder="Your Message"></textarea>
+                                <textarea class="form-control" rows="6" id="cf-message" name="cf-message" placeholder="Your Message" minlength="20" required onkeypress="return isNumberKey(event)"></textarea>
                             </div>
                             <div class="">
                                 <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
@@ -87,12 +84,12 @@
                     <div class="single-contact-info " data-wow-delay="0.2s">
                         <i class="fa fa-map-marker"></i>
                         <h2>Visit Our Office</h2>
-                        <p>Address</p>
+                        <p>23, Ogundana Street, Off Allen Avenue, Ikeja, Lagos</p>
                     </div>
                     <div class="single-contact-info" data-wow-delay="0.4s">
                         <i class="fa fa-mobile"></i>
                         <h2>Call Us</h2>
-                        <p>+234-0000-0000</p>
+                        <p>+234 (0)000-000-0000</p>
                     </div>
                     <div class="single-contact-info" data-wow-delay="0.8s">
                         <i class="fa fa-envelope"></i>
@@ -105,27 +102,23 @@
         </div>
     </section>
     <!-- / END CONTACT DESIGN AREA -->
-
     <!-- START FOOTER DESIGN AREA -->
     <footer class="footer-area">
-                    <div class="footer-text" style="text-align: center" >
-                        <h4>info@giftapad.com</h4>
-                        <div class="social-links">
-                            <ul>
-                                <li><a href="www.facebook.com/GiftAPad"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/GiftAPad"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/giftapad/"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <p>23, Ogundana Street, Off Allen Avenue, Ikeja, Lagos</p>
-                        <p>Gift A Pad. &copy; 2019. All Rights Reserved.
-                            <br/><a style="color: black !important;" href="about.html"><u>Find out more about Us</u></a>
-                        </p>
-                    </div>
-              
+        <div class="footer-text" style="text-align: center">
+            <h4>info@giftapad.com</h4>
+            <div class="social-links">
+                <ul>
+                    <li><a href="www.facebook.com/GiftAPad"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/GiftAPad"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/giftapad/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <p>23, Ogundana Street, Off Allen Avenue, Ikeja, Lagos</p>
+            <p>Gift A Pad. &copy; 2019. All Rights Reserved.
+                <br><a style="color: black !important;" href="about.html"><u>Find out more about Us</u></a>
+            </p>
+        </div>
     </footer>
     <!-- END OF FOOTER DESIGN AREA -->
-
 </body>
-
 </html>
