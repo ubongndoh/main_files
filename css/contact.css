@@ -180,12 +180,14 @@ header a:hover {
     height: 60px;
     font-size: 16px;
     line-height: 1.42857143;
+
     color: #000;
     background-color: #ffffff;
+
     background-image: none;
     border-radius: 0px;
     box-shadow: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
     -webkit-transition: .3s;
     transition: .3s;
     margin-bottom: 30px;
@@ -204,11 +206,14 @@ header a:hover {
     color: #000;
     text-transform: capitalize;
     font-size: 14px;
+
     border: 1px solid #337ab7;
     background-color: #FF1493;
+
     font-weight: 600;
-    width: 200px;
+    width: 100%;
     margin-bottom: 0;
+    margin-left: 20px;
     border-radius: 30px;
 }
 
